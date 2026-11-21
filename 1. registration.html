@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration - Student Management Portal</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <p>Please fill in the details to register.</p>
+
+    <form>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course">
+            <option value="">Select Course</option>
+            <option value="cse">Computer Science</option>
+            <option value="it">Information Technology</option>
+            <option value="aids">AI and Data Science</option>
+            <option value="ece">Electronics and Communication</option>
+        </select>
+        <br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea>
+        <br><br>
+
+        <input type="submit" value="Register">
+
+        <input type="reset" value="Clear">
+
+    </form>
+
+    <br>
+    <a href="index.html">Home</a>
+
+</body>
+</html>
